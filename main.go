@@ -1,7 +1,10 @@
 package main
 
+import "fmt"
+
 func main() {
-	createSpiral(5)
+	m := createSpiral(3)
+	fmt.Println(m)
 }
 
 func createSpiral(n int) [][]int {
